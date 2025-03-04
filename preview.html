@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    .previewArea{
+        width: 50%;
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .formSec{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(37, 110, 238, 0.258);
+        padding: 5px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="h1 bg-dark text-light text-center rounded">Preview</div>
+        <div class="formSec">
+            <div class="row previewArea">
+                <div class="col-md-12">
+                    <label for="">Photo</label>
+                    <img src="" alt="" id="img" style="display: none;" width="200px">
+                </div>
+                <div class="col-md-12">
+                    <label for="">Name</label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+                <div class="col-md-12">
+                    <label for="">Email</label>
+                    <input type="email" id="email" disabled class="form-control">
+                </div>
+                <div class="col-md-12">
+                    <label for="">Phone No.</label>
+                    <input type="number" id="phone" disabled class="form-control">
+                </div>
+                <div class="col-md-12">
+                    <label for="">Address</label>
+                    <textarea name="" id="address" disabled class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="preview.js"></script>
+</body>
+</html>
